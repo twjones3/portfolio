@@ -1,0 +1,19 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="author" content="{{ .Site.Params.author }}" />
+<meta
+  name="description"
+  content="
+{{- with .Page.Description -}}
+  {{ . }}
+{{- else -}}
+  {{ .Site.Params.description }}
+{{- end -}}"
+/>
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+<title>
+  {{ if .Page.IsHome }} {{ site.Title }} {{ else }} {{ .Title }} - {{
+  .Site.Title }} {{- end -}}
+</title>
+{{ partialCached "head/css.html" . }} {{ partialCached "head/js.html" . }} <link
+rel="stylesheet" href="{{ "css/style.css" | relURL }}">

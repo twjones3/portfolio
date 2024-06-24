@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations on Taylor&#39;s Portfolio</title>
+    <link>http://localhost:1313/presentations/</link>
+    <description>Recent content in Presentations on Taylor&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 17:19:42 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moneymaker</title>
+      <link>http://localhost:1313/presentations/moneymaker/</link>
+      <pubDate>Tue, 18 Jun 2024 17:19:42 -0400</pubDate>
+      <guid>http://localhost:1313/presentations/moneymaker/</guid>
+      <description>buddy, we are making money now&#xA;money house sushi </description>
+    </item>
+    <item>
+      <title>Websitebuilder</title>
+      <link>http://localhost:1313/presentations/websitebuilder/</link>
+      <pubDate>Tue, 18 Jun 2024 17:16:49 -0400</pubDate>
+      <guid>http://localhost:1313/presentations/websitebuilder/</guid>
+      <description>Buddy, we are making hugo websites now&#xA;Make it Bake it Shake it </description>
+    </item>
+  </channel>
+</rss>

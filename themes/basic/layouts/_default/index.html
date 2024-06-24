@@ -1,0 +1,11 @@
+{{ define "main" }} {{ .Content }}
+
+<h3 class="recent-project-header">My Current Project:</h3>
+
+{{ range first 1 (where .Site.RegularPages "Type" "in" "projects") }}
+
+<div class="recent-project-link">
+  <a href="{{ .RelPermalink  }}">{{ .Title }}</a>
+</div>
+
+{{ end }} {{ end }}
