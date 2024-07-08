@@ -1,3 +1,7 @@
+body {
+  background-color: #c5c0db; /* Replace with your desired dark color */
+}
+
 .container {
   margin: 0 auto;
 }
@@ -5,8 +9,8 @@
 .nav,
 footer {
   margin-top: 0;
-  background-color: #333;
-  color: #fff;
+  background-color: #0c1138;
+  color: #c5c0db;
   text-align: center;
 }
 
@@ -19,7 +23,7 @@ footer {
   flex: 1;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #c5c0db;
 }
 
 @media only screen and (min-width: 768px) {

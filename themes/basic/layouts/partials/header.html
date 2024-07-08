@@ -1,1 +1,7 @@
-<h1>{{ site.Title }}</h1>
+{{ range .AlternativeOutputFormats -}}
+  {{- $link := printf "<link rel=\"%s\" type=\"%s\" href=\"%s\" title=\"%s\"/>" .Rel .MediaType.Type .Permalink $.Page.Title -}}
+  {{- $title := printf "%s - %s" $.Page.Title $.Site.Title -}}
+  {{- if $.Page.IsHome -}}
+    {{- /* Your additional code for the home page */ -}}
+  {{- end -}}
+{{ end }}
