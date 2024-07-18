@@ -10,6 +10,11 @@
   {{ .Site.Params.description }}
 {{- end -}}"
 />
+
+<meta 
+  name="keywords"
+  content="{{ .Site.Params.keywords }}"
+/>
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 <title>
   {{ if .Page.IsHome }} {{ site.Title }} {{ else }} {{ .Title }} - {{

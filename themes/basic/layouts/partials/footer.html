@@ -1,3 +1,8 @@
 <footer>
-  <small> Copyright {{ now.Year }}. All rights reserved. </small>
+  <small>
+    {{ range .Site.Data.socialmedia.accounts }}
+      <a href="{{ .url }}">{{ .name }}</a>
+    {{ end }}
+  </small>
+  <small> Copyright {{ now.Year }}. {{ .Site.Params.Author }}. All rights reserved. </small>
 </footer>
